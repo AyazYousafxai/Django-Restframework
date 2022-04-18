@@ -1,2 +1,7 @@
 env
-
+restframework/products/migrations
+restframework/api/__pycache__
+restframework/products/__pycache__
+restframework/restframework/__pycache__
+restframework/api/migrations/__pycache__
+restframework/db.sqlite3
