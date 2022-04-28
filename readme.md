@@ -50,7 +50,7 @@
 ### Field lookups
     Field lookups are how you specify the meat of an SQL WHERE clause. They’re specified as keyword arguments to the QuerySet methods filter(), exclude() and get().
 
-    Basic lookups keyword arguments take the form **field__lookuptype=value**. (That’s a double-underscore). For example:
+    Basic lookups keyword arguments take the form ** field__lookuptype=value **. (That’s a double-underscore). For example:
 
     Entry.objects.filter(pub_date__lte='2006-01-01')
 
