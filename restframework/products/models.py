@@ -9,3 +9,6 @@ class Product(models.Model):
     @property
     def sale_price(self):
         return "%.2f" % (self.price)
+
+    def get_discount(self):
+        return self.price - 5
