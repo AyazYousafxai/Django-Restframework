@@ -1,11 +1,11 @@
 ## serilizer
     take data and clean it and make sure the data is right, validate data
-    ```  if serializer.is_valid():
+    ```if serializer.is_valid():
             print(serializer.validated_data)
             instance = serializer.save()
             print(instance)
-            return Response(serializer.data)
-    ```
+            return Response(serializer.data) ```
+   
 
 ### get data from request
     get data from reguest using request.data 
