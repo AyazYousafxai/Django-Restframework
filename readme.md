@@ -1,3 +1,17 @@
+## serilizer
+    take data and clean it and make sure the data is right, validate data
+    ```  if serializer.is_valid():
+            print(serializer.validated_data)
+            instance = serializer.save()
+            print(instance)
+            return Response(serializer.data)
+    ```
+
+### get data from request
+    get data from reguest using request.data 
+### create a function inside serilizer with reference
+    it will access class attribute e.g def test(self,obj) the reference obj will access serilizer attribute (obj.idm obj.name) and also foriegn attribute
+
 ### difference between jsonresponse and httpResponse
     jsonresponse is a response object that is used to send json data to the client.
     httpresponse is a response object that is used to send html data to the client.
